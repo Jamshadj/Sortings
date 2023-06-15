@@ -3,7 +3,7 @@ package tree;
 import java.util.Arrays;
 
 /**
- * heapSort2
+ * heapSort2     
  */
 public class heapSort2 {
 
