@@ -18,7 +18,7 @@ public class heapSort2 {
             arr[i]=temp;
             buildHeap(0, arr,i);
         }
-   
+            
     }
     public void buildHeap(int i,int [] arr,int n){
         int parent=parent(i);
