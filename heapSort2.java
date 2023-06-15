@@ -21,7 +21,7 @@ public class heapSort2 {
     }      
     public void buildHeap(int i,int [] arr,int n){
         int parent=parent(i);
-        int left=left(i);
+        int left=left(i);   
         int right=right(i);
         if (left<arr.length && arr[parent]<arr[left]) {
             parent=left;
